@@ -1,4 +1,10 @@
 version: 1
+
+execute:
+  execute_notebooks: "auto"
+  allow_errors: false
+  timeout: 600
+
 project:
   open_access: true
   license:
